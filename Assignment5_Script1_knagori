@@ -1,0 +1,16 @@
+#Create parent directory
+mkdir assignment_5
+
+#switch to new directory
+cd assignment_5
+
+#For create 500 subdirectories
+for num in {1..500}; do
+    mkdir subdirectory$num
+done
+
+#Create textfile with 5 lines
+printf '%s\n' 'Assignment 5' 'Krupa Nagori' 'Create Directory' 'Create Subdirectory' 'Create Text File' >> textfile.txt
+
+#Copy textfile.txt to all subdirectories
+for d in */; do cp textfile.txt "$d"; done

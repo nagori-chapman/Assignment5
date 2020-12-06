@@ -1,0 +1,49 @@
+for die in `find . -name '*0'`; 
+do
+sed '4 s/.*/bashiseducational/' textfile.txt
+done
+
+for die in `find . -name '*1'`; 
+do
+sed '4 s/.*/eat beets/' textfile.txt
+done
+
+for die in `find . -name '*2'`; 
+do
+sed '4 s/.*/ /' textfile.txt
+done
+
+for die in `find . -name '*3'`; 
+do
+sed '4 s/.*/ /' textfile.txt
+done
+
+for die in `find . -name '*4'`; 
+do
+sed '4 s/.*/squash are great/' textfile.txt
+done
+
+for die in `find . -name '*5'`; 
+do
+sed '4 s/.*/dogs are better than cats/' textfile.txt
+done
+
+for die in `find . -name '*6'`; 
+do
+sed '4 s/.*/ /' textfile.txt
+done
+
+for die in `find . -name '*7'`; 
+do
+sed '4 s/.*/hello world/' textfile.txt
+done
+
+for die in `find . -name '*8'`; 
+do
+sed '4 s/.*/ /' textfile.txt
+done
+
+for die in `find . -name '*9'`; 
+do
+sed '4 s/.*/ /' textfile.txt
+done
